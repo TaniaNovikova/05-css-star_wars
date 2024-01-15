@@ -45,6 +45,15 @@ h1 {
     text-align: center;
     font-size: 3em;
     padding: 0.5em 0;
+    border: rgba(60, 69, 67, 0.6) 10px 10px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em 0;
+    border: #eedb00;
 }
 
 .left {
@@ -57,6 +66,9 @@ h1 {
     float: right;
     width: 50%;
     margin: 5px 5px 0;
+    border: #eedb00;
+    box-shadow: rgba(60, 69, 67, 0.6) -10px 10px;
+    background-color: rgba(60, 69, 67, 0.6);
 }
 
 
@@ -64,23 +76,21 @@ img {
     width: 100%;
 }
 
-.farGalaxy{
+.farGalaxy {
     font-size: 2em;
     letter-spacing: 0.2em;
     line-height: 1.4;
     text-align: justify;
+    position: sticky;
 
 }
-.right > table{
-    border: 1px solid #eedb00;
-    border-radius: 0 0 15px 15px;
-}
 
-.left img{
+
+.left img {
     box-shadow: rgba(60, 69, 67, 0.6) 10px 10px;
 }
 
-.button{
+.button {
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgba(204, 3, 35, 0.5);
@@ -91,21 +101,44 @@ img {
     left: 22em;
     top: 2em;
 }
-.button > p{
+
+.button>p {
     font-size: 0.8em;
     text-align: center;
 }
 
-.email{
+.email {
     font-size: 1.5em;
     color: black;
     font-variant: small-caps;
 }
 
-.bottomLeft{
+.bottomLeft {
     border-bottom-left-radius: 15px;
 }
 
-.bottomRight{
+.bottomRight {
     border-bottom-right-radius: 15px;
+}
+
+.row1>section {
+    text-align: center;
+    border: rgba(60, 69, 67, 0.6) 10px 10px;
+}
+
+
+.row2>section {
+    float: left;
+    width: 33%;
+
+}
+
+.row3>section {
+    float: left;
+    width: 33%;
+}
+
+.row4>section {
+    float: left;
+    width: 33%;
 }
