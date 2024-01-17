@@ -11,14 +11,16 @@ body {
     background-attachment: fixed;
 }
 
-header {
+header,
+footer {
     background-color: rgba(60, 69, 67, 0.6);
-    border-radius: 15px 15px 0 0;
+}
 
+header {
+    border-radius: 15px 15px 0 0;
 }
 
 footer {
-    background-color: rgba(60, 69, 67, 0.6);
     border-radius: 0 0 15px 15px;
     height: 6em;
     clear: both;
@@ -30,7 +32,6 @@ nav>ul {
     position: fixed;
     top: 5px;
     left: 40px;
-
 }
 
 nav li {
@@ -50,37 +51,43 @@ h1 {
 .left {
     float: left;
     width: 25%;
-    margin: 5px 10px 0;
+    margin: 5px 10px 0 5px;
 }
 
 .right {
     float: right;
     width: 50%;
     margin: 5px 5px 0;
+    border: 1px solid #eedb00;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-
-img {
-    width: 100%;
-}
-
-.farGalaxy{
+.farGalaxy {
     font-size: 2em;
     letter-spacing: 0.2em;
     line-height: 1.4;
     text-align: justify;
-
-}
-.right > table{
-    border: 1px solid #eedb00;
-    border-radius: 0 0 15px 15px;
 }
 
-.left img{
+.right h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.right img {
+    width: 32%;
+}
+
+
+.left img {
     box-shadow: rgba(60, 69, 67, 0.6) 10px 10px;
+    width: 100%;
 }
 
-.button{
+.button {
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgba(204, 3, 35, 0.5);
@@ -91,21 +98,22 @@ img {
     left: 22em;
     top: 2em;
 }
-.button > p{
+
+.button>p {
     font-size: 0.8em;
     text-align: center;
 }
 
-.email{
+.email {
     font-size: 1.5em;
     color: black;
     font-variant: small-caps;
 }
 
-.bottomLeft{
+.bottomLeft {
     border-bottom-left-radius: 15px;
 }
 
-.bottomRight{
+.bottomRight {
     border-bottom-right-radius: 15px;
 }
